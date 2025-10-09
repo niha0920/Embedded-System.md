@@ -51,7 +51,7 @@ It's a small computer - usually a microcontroller or microprocessor-based device
 - Embedded systems often work in the background, interacting with sensors, motors, or machines.
 ## Software Environment Comparision
 - A general-purpose system supports compilers, browsers, apps, games.
-- Embedded systems might just run firmware - code written in Embedded C, C++, or MicroPythin - iploaded via tools like Arduino IDE or PlatformIO.
+- Embedded systems might just run firmware - code written in Embedded C, C++, or MicroPython - iploaded via tools like Arduino IDE or PlatformIO.
 - Some run on RTOS like FreeRTOS, Zephyr, or even TinyOS for real-time control.
 ## Real World Applications
 - Smartphones

@@ -65,3 +65,10 @@ A  smart farming system may use:
 - Cloud server on a general-purpose system
 - Smartphone app to control and view data
 #### So, both systems complement each other in smart solutions.
+# Microprocessors vs Microcontrollers
+## What is a Microprocessor?
+- Central processing unit on a single chip.
+- Handles computations, decision-making, and executes instructions.
+- Needs help from external memory, I/O devices, and other components to function as a system.
+- Laptop, desktop PC, and even powerful AI gateaways.
+#### Designed for general-purpose tasks - browsing, multitasking, gaming, or managing heavy data operations.

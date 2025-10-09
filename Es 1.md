@@ -92,5 +92,7 @@ A  smart farming system may use:
 ## Which one should you use
 | Microprocessor                                                   | Microcontroller                         |
 | ---------------------------------------------------------------- | --------------------------------------- |
-| If your system :  Needs a full ooperating system like Linux      | If your system : Controls a single task |
+| If your system :  Needs a full operating system like Linux      | If your system : Controls a single task |
 | Handles complex tasks like voice recognition or video streaming. | Runs on battery or needs low power   |
+## Role in Embedded  systems
+In embedded systems, especially IoT, microcontrollers play a key role at the edge. They interact with sensors, collect data, and make instant decisions.

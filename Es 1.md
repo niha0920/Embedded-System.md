@@ -25,3 +25,27 @@ IoT is all about connecting devices to the internet - and embedded systems make 
 - A microcontroller to process data
 - Wi-Fi to send info to the cloud
 - And actuators to control water flow
+# Embedded Systems vs General Systems
+## General Purpose Systems
+These are machines designed to perform a wide variety of tasks. Examples include laptops, desktops, smartphones, tablets.
+- They have powerful processors, run complex operating systems like Windows, Linux, Android, and can support tons of apps simultaneously - games, browsers, video editors, IDEs.
+## Embedded System 
+It's a small computer - usually a microcontroller or microprocessor-based device - that performs a specific tassk.
+- Controlling temperature
+- Managing fuel injection
+- Monitoring heartbeat
+- Measuring soil moisture
+## Key Differences
+| Feature           | General Purpose System            | Embedded System                       |
+| ----------------- | --------------------------------- | ------------------------------------- |
+| Purpose           | Multiple tasks                    | One specific function                 |
+| OS                | Full OS (WINDOWS, LINUX, ANDROID) | Minimal or RTOS or bare metal         |
+| Hardware          | Powerful CPU, GPU, HDD, RAM       | Simple MCU, Flash, EEPROM             |
+| User Interface    | Keyboard, Mouse, Screen           | Often no interface (or buttons, LEDs) |
+| Connectivity      | Wi-Fi, Bluetooth, LAN, USB, etc.  | May have limited or specific I/O      |
+| Power Consumption | High                              | Very Low                              |
+| Cost              | Higher                            | Lower (can be <$2 MCU)                |
+| Examples          | Laptop, Phone, PC                 | Smartwatch, Washing Machine, Drone    |
+## Performance and Interaction
+- General-purpose systems are made for constant human interaction. You type, click, speak, swipe.
+- Embedded systems often work in the background, interacting with sensors, motors, or machines.

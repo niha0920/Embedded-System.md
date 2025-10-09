@@ -72,3 +72,25 @@ A  smart farming system may use:
 - Needs help from external memory, I/O devices, and other components to function as a system.
 - Laptop, desktop PC, and even powerful AI gateaways.
 #### Designed for general-purpose tasks - browsing, multitasking, gaming, or managing heavy data operations.
+## What is a Microcontroller
+- Complete mini-computer on a single chip.
+- CPU, memory, timers, and input.output pins, all built-in...
+- Microcontrollers are purpose-built for real-time tasks.
+- Energy-efficient, low-cost, and designed to do one job.
+- Home devices, wearables, kitchen appliances, drones, and almost all IoT edge devices.
+## Key Differennces
+| Feature           | MPU                 | MCU                    |
+| ----------------- | ------------------- | ---------------------- |
+| Processing power  | High                | Moderate               |
+| Memory            | External            | Built-in               |
+| Power Consumption | High                | Low                    |
+| Cost              | Expensive           | Budget-friendly        |
+| Applications      | PC, Laptop, servers | Embedded / IoT devices |
+## Real World Use Cases
+- Smart camera
+- Soil monitoring sensor
+## Which one should you use
+| Microprocessor                                                   | Microcontroller                         |
+| ---------------------------------------------------------------- | --------------------------------------- |
+| If your system :  Needs a full ooperating system like Linux      | If your system : Controls a single task |
+| Handles complex tasks like voice recognition or video streaming. | Runs on battery or needs low power   |

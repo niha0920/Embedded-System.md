@@ -49,3 +49,19 @@ It's a small computer - usually a microcontroller or microprocessor-based device
 ## Performance and Interaction
 - General-purpose systems are made for constant human interaction. You type, click, speak, swipe.
 - Embedded systems often work in the background, interacting with sensors, motors, or machines.
+## Software Environment Comparision
+- A general-purpose system supports compilers, browsers, apps, games.
+- Embedded systems might just run firmware - code written in Embedded C, C++, or MicroPythin - iploaded via tools like Arduino IDE or PlatformIO.
+- Some run on RTOS like FreeRTOS, Zephyr, or even TinyOS for real-time control.
+## Real World Applications
+- Smartphones
+- Fitness band
+- Laptop
+- Automatic door
+- Drone
+## Where they work together
+A  smart farming system may use:
+- Embedded nodes (with ESP32) in the field
+- Cloud server on a general-purpose system
+- Smartphone app to control and view data
+#### So, both systems complement each other in smart solutions.

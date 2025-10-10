@@ -96,3 +96,61 @@ A  smart farming system may use:
 | Handles complex tasks like voice recognition or video streaming. | Runs on battery or needs low power   |
 ## Role in Embedded  systems
 In embedded systems, especially IoT, microcontrollers play a key role at the edge. They interact with sensors, collect data, and make instant decisions.
+# Types of Embedded Systems
+## What are Embedded Systems
+An embedded system is a special-purpose computer built into a device to perform a dedicated function.
+- Low power
+- Real-time
+- Small size
+- High reliability
+## Classification of Embedded Systems
+Embedded systems are categorized based on functionality, performance, and architecture.
+- Stand-alone
+- Real-time
+- Networked
+- Mobile
+- Small/Medium/Large scale
+- Hybrid
+## 1. Stand-Alone Embedded Systems
+These systems work independently. They get inputs, proocess them, and give outputt.
+### Examples:
+- Washing machine
+- Microwave oven
+- MP3 player
+## 2. Real-Time Embedded Systems
+Real-time systems must react within a specific time limit. These are mission-critical.
+- Hard real-time: Failure to respond in time results in a disaster (e.g., pacemaker, anti-lock brakes)
+- Soft real-time: Occasional delays are tolerable (e.g., video streaming)
+## 3. Networked Embedded Systems
+These are connected to a network or internet, enabling communication with other devices.
+### Examples:
+- Smart home automation systems
+- IoT-enabled irrigation systems
+- Industrial IoT sensors
+## 4. Mobile Embedded Systems
+Mobile embedded systems are portable and often battery-powered.
+### Example:
+- Smartwatches
+- Digital cameras
+- Fitness bands
+## 5. Small, Medium & Large-Scale Systems
+This classification is based on complexity, memory, and performance.
+### Small-scale:
+- 8/16-bit microcontrollers (e.g., calculators, remote controls)
+### Medium-scale:
+- More complex, 16/32-bit controllers (e.g., printers, vending machines)
+### Large-scale:
+- High performance, often running RTOS (e.g., avionics systems, industrial automation)
+## 6. Hybrid Embedded Systems
+Many modern systems are hybrid, combining types.
+#### A smart car is stand-alone, networked, real-time, and mobile.
+### Examples:
+- Autonomous vehicles
+- Smart healthcare devices
+- Drones
+| Stand-alone | Self-contained devices     |
+| real-time   | Time-sensitive tasks       |
+| Networked   | Connected to other systems |
+| Mobile      | Portable and efficient     |
+| Scale-based | Resource complexity        |
+| Hybrid      | Combines multiple types    |

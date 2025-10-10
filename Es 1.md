@@ -148,10 +148,12 @@ Many modern systems are hybrid, combining types.
 - Autonomous vehicles
 - Smart healthcare devices
 - Drones
-###
-| Stand-alone | Self-contained devices     |
-| real-time   | Time-sensitive tasks       |
-| Networked   | Connected to other systems |
-| Mobile      | Portable and efficient     |
-| Scale-based | Resource complexity        |
-| Hybrid      | Combines multiple types    |
+##
+| Embedded System | Description                |
+| --------------- | -------------------------- |
+| Stand-alone     | Self-contained devices     |
+| real-time       | Time-sensitive tasks       |
+| Networked       | Connected to other systems |
+| Mobile          | Portable and efficient     |
+| Scale-based     | Resource complexity        |
+| Hybrid          | Combines multiple types    |

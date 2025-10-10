@@ -157,3 +157,30 @@ Many modern systems are hybrid, combining types.
 | Mobile          | Portable and efficient     |
 | Scale-based     | Resource complexity        |
 | Hybrid          | Combines multiple types    |
+# Role of Embedded Systems in IOT
+## Architecture of an Embedded IoT Device
+- User Interface
+- Cloud / Edge Interface
+- Communication Layer
+- Embedded Controller Layer
+- Sensor / Actuator Layer
+## Real-Time operating systems & Firmware Design
+Firmware handles sensor reads, I/O control, communication timing, and more.
+#### RTOOS - Real-Time Operating System. Popular ones like FreeRTOS, Zephyr, or MbedOS provide:
+- Task scheduling (preemptive or cooperative),
+- Inter-task communication (queues, semaphores),
+- Timer management,
+- Power state transitions.
+## Communiction Protocols: Local & Cloud
+- Wi-Fi: High throughput, high power - good for consumer devices.
+- BLE: Great for wearables and short-range control.
+- Zigbee / Z-Wave: Mesh-based protocols for smart homes.
+- LoRa / LoRaWAN: Long-range, low-data - perfect for agriculture, environment monitoring.
+- NB-IoT or LTE-M: Cellular-based for remote assets.
+- MQTT is publish / subscribe - great for real-time messaging.
+- CoAP is request / response, optimized for low power.
+## Power Management and Optimization
+- Sleep Modes: Chips like ESP32 can drop to microamp levels in deep sleep.
+- Duty Cycling: Wake, sample, transmit, and sleep - in milliseconds.
+- Low-power sensors: Components with sub-milliwatt consumption.
+- Energy Harvesting: From solar, piezo, RF, or even body heat.

@@ -114,3 +114,12 @@ Power circuits need careful PCB layout to avoid heat, noise, and voltage drop.
 - Bypass capacitors
 - Keep Feedback Traces Short
 #### Good Layout = stable voltage and long component life.
+# Introduction to Sensors and Actuators
+## What are Sensors and Actuators?
+- Sensors are devices that detect physical phenomena.
+- Actuators receive control signals and convert them into physical action
+### Examples:
+- Temperature Sensor (e.g., LM35)
+- Motion Sensor (e.g., PIR)
+- Servo Motor as an actuator
+- Relay module

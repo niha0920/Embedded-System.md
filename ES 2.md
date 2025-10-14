@@ -45,3 +45,16 @@ Q = C * V
 - Amplifier: Boost weak signals (used in radios, audio devices).
 ## Example
 Lighting an LED through a resistor, controlled by a transistor acting as a swicth!
+# Power Supply Design and Basics of PCB
+## What is a Power Supply?
+A power supply is an electrical device that provides the necessary voltage and current to your circuit.
+- Convert: AC to DC (or change voltage levels)
+- Regulate: Provide a stable output, even if input varies
+- Filter: Remove noise and ripple
+- Protect: Prevent overload, short circuit, etc.
+## Types of Power Supply
+Power supplies come in various flovors. Let's explore the main categories:
+1. Linear Power Supplies
+2. Switch Made Power Supplies (SMPS)
+3. Battery Power Supplies
+4. USB Power

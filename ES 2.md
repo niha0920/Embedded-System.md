@@ -58,3 +58,59 @@ Power supplies come in various flovors. Let's explore the main categories:
 2. Switch Made Power Supplies (SMPS)
 3. Battery Power Supplies
 4. USB Power
+## Linear Power Supplies
+Use a transformer, rectifier, and  linear regulator like the famous 7805
+- Simple and low noise
+- But less efficient - because excess voltage is wasted as heat
+## Switch Mode Power Supplies (SMPS)
+- Use high-frequency switching to step down or up voltages.
+- Examples: Buck, Boost, Buck-Boost converters
+- Much more efficient
+## Battery Power Supplies
+- Use rechargeable or primary batteries.
+- Often include battery management systems (BMS) for charging, protection, and voltage regulation.
+## USB Power
+- Widely used in IoT devices.
+- Typically delivers 5V with current limits (500mA-3A depending on USB type)
+## Components of Power Supply Design
+1. Transformer (in AC-DC supplies)
+2. Bridge Rectifier
+3. Filter Capacitor
+4. Voltage Regulator
+5. Inductor (in SMPS)
+6. Zener Diodes
+7. Protection Devices
+## Design Considerations
+- Input and Output Voltage
+- Load Current Range
+- Efficiency Requirements
+- Thermal Dissipation
+- Size Constraints
+- Cost and Availability
+## Basics of PCB Design
+A PCB is where your power supply and components physically sit. It connects them using copper traces instead of wires.
+### Key layers:
+#### Copper Layer:
+For signal / power routing
+#### Silkscreen:
+Labels and component names
+#### Soldermask:
+The green coating that prevents shorts
+## PCD Design Tools
+KiCad, Eagle, EasyEDA, Altium Designer
+## Basic Steps
+- Schematic Design - Place and connect components logically.
+- Component Placement - Arrange components physically on the board.
+- Routing Traces - Connect the pins with appropriate width.
+- DRC Check - Verify design rules before generating Gerber files.
+- Export Gerber Files - used for manufacturing.
+## Power Supply Layout in PCB
+Power circuits need careful PCB layout to avoid heat, noise, and voltage drop.
+### PCB Design Tips for Power Supplies:
+- Thick Power Traces
+- Short and Direct Paths
+- Ground Planes
+- Thermal Reliiefs
+- Bypass capacitors
+- Keep Feedback Traces Short
+#### Good Layout = stable voltage and long component life.

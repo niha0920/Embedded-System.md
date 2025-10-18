@@ -25,6 +25,7 @@ IoT is all about connecting devices to the internet - and embedded systems make 
 - A microcontroller to process data
 - Wi-Fi to send info to the cloud
 - And actuators to control water flow
+
 # Embedded Systems vs General Systems
 ## General Purpose Systems
 These are machines designed to perform a wide variety of tasks. Examples include laptops, desktops, smartphones, tablets.
@@ -65,6 +66,7 @@ A  smart farming system may use:
 - Cloud server on a general-purpose system
 - Smartphone app to control and view data
 #### So, both systems complement each other in smart solutions.
+
 # Microprocessors vs Microcontrollers
 ## What is a Microprocessor?
 - Central processing unit on a single chip.
@@ -96,6 +98,7 @@ A  smart farming system may use:
 | Handles complex tasks like voice recognition or video streaming. | Runs on battery or needs low power   |
 ## Role in Embedded  systems
 In embedded systems, especially IoT, microcontrollers play a key role at the edge. They interact with sensors, collect data, and make instant decisions.
+
 # Types of Embedded Systems
 ## What are Embedded Systems
 An embedded system is a special-purpose computer built into a device to perform a dedicated function.
@@ -157,6 +160,7 @@ Many modern systems are hybrid, combining types.
 | Mobile          | Portable and efficient     |
 | Scale-based     | Resource complexity        |
 | Hybrid          | Combines multiple types    |
+
 # Role of Embedded Systems in IOT
 ## Architecture of an Embedded IoT Device
 - User Interface

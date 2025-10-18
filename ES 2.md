@@ -182,4 +182,30 @@ Digital signals are discrete. They only have two levels: HIGH and LOW.
 - In most systems, HIGH is 5 volts, and LOW is 0 volts.
 - Digital signals are ideal for processing by microcontrollers.
 ## Analog vs Digital
-| FEATURE | ANALOG | DIGITAL |
+| Feature          | Analog          | Digital                  |
+| ---------------- | --------------- | ------------------------ |
+| Nature           | Continuous      | Discrete                 |
+| Accuracy         | High            | Depends on resolution    |
+| Noise resistance | Low             | High                     |
+| Processing       | Needs ADC       | Direct Logic             |
+| Examples         | Microphone, LDR | Button, Proximity Sensor |
+## How Microcontrollers Handle Signals
+In embedded systems, microcontrollers like Arduino, STM32, and ESP32 can handle both types of signals.
+- ADC - Analog-to-Digital Converter.
+- PWM or DAC - Digital-to-Analog Converter.
+## Deeper into ADC and DAC
+- ADC converts an analog signal to a digital value - often a 10-bit or 12-bit number. That means you get 1024 or 4096 steps of resolution.
+- DAC does the reverse - converting a digital number to a voltage, to control things like speakers or motors.
+## Real World Applications
+- In smartphones - microphones use analog input, touch sensors use digital.
+- In smart agriculture - analog soil moisture sensors, digital rain sensors.
+- In healthcare - analog ECG sensors, digital heart rate monitors.
+- In home automation - analog light detection, digital motion detection.
+## Mixed Signal Systems
+- Most embedded systems today are mixed-signal systems - meaning they handle both analog and digital signals.
+- Microcontrollers need to read analog data, process it digitally, and sometimes output analog responses.
+## Analog and Digital in Modern IoT
+- In IoT systems, the analog-digital combination is everywhere.
+- Environmental data like temperature, humidity, sound - all start as analog.
+- They're converted , processed, and shared digitally over Wi-Fi or BLE.
+- Understanding how analog and digital signals work is key to building robust IoT systems.

@@ -45,6 +45,7 @@ Q = C * V
 - Amplifier: Boost weak signals (used in radios, audio devices).
 ## Example
 Lighting an LED through a resistor, controlled by a transistor acting as a swicth!
+
 # Power Supply Design and Basics of PCB
 ## What is a Power Supply?
 A power supply is an electrical device that provides the necessary voltage and current to your circuit.
@@ -114,6 +115,7 @@ Power circuits need careful PCB layout to avoid heat, noise, and voltage drop.
 - Bypass capacitors
 - Keep Feedback Traces Short
 #### Good Layout = stable voltage and long component life.
+
 # Introduction to Sensors and Actuators
 ## What are Sensors and Actuators?
 - Sensors are devices that detect physical phenomena.
@@ -163,3 +165,21 @@ Real-world applications include:
 - Smart Homes - motion sensors, light actuators
 - Healthcare - biosensors and infusion pumps
 - Industrial Automation - pressure sensors and robotic arms
+
+# Analog and Digital Signals in Embedded Systems 
+## What is a Signal?
+A signal is a way of carrying information. In electronics, it usually means a change in voltage or current over time.
+### Signals come in two types:
+- Analog - smooth, continuous signals.
+- Digital - step-by-step, binary sugnals.
+## Analog Signals - Continuous Worls
+Analog signals are continuous. That means the voltage or current can take any value within a range.
+- Temperature sensors like thermistors.
+- Sound waves picked up by microphones.
+- Light intensity measured by LDRs.
+## Digital Signals - The Language of Computers
+Digital signals are discrete. They only have two levels: HIGH and LOW.
+- In most systems, HIGH is 5 volts, and LOW is 0 volts.
+- Digital signals are ideal for processing by microcontrollers.
+## Analog vs Digital
+| FEATURE | ANALOG | DIGITAL |
